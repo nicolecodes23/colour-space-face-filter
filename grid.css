@@ -1,0 +1,35 @@
+ body {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     background-color: white;
+     margin: 0;
+ }
+
+ canvas {
+     border: 2px solid black;
+ }
+
+ button {
+     font-size: 18px;
+     padding: 10px 20px;
+     border: none;
+     border-radius: 8px;
+     cursor: pointer;
+ }
+
+ #goCapture {
+     background-color: #ff5733;
+     color: white;
+ }
+
+ #thermalExtension {
+     background-color: #4169e1;
+     color: white;
+ }
+
+ #backToGrid {
+     background-color: green;
+     color: white;
+ }
